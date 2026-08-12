@@ -9,10 +9,10 @@ Homestead.yaml
 .idea
 npm-debug.log
 yarn-error.log
-/public/dist
+/public/dist/
 /public/plugins
-/public/css
-/public/js
+/public/css/*.map
+/public/js/*.map
 /public/bower
 /public/build/
 /public/favicon.ico
@@ -33,4 +33,5 @@ webpack-stats.json
 phpstan.neon
 esbuild-meta.json
 .phpactor.json
+/dist
 /*.zip
